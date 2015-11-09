@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_comments"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_lgray2dgray_sel"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_avatar"/>
+
+    <TextView
+        android:id="@+id/tv_comment"
+        style="@style/TextViewSubhead"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginRight="16dp"
+        android:text="评论评论" />
+
+</LinearLayout>

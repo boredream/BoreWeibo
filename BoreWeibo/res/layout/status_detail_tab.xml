@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RadioGroup
+        android:id="@+id/rg_status_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_retweets"
+            style="@style/RadioButtonStatusDetailTab"
+            android:text="转发" />
+
+        <RadioButton
+            android:id="@+id/rb_comments"
+            style="@style/RadioButtonStatusDetailTab"
+            android:checked="true"
+            android:text="评论" />
+
+        <RadioButton
+            android:id="@+id/rb_likes"
+            style="@style/RadioButtonStatusDetailTab"
+            android:text="赞" />
+    </RadioGroup>
+
+</LinearLayout>
