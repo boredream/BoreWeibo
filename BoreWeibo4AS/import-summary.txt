@@ -1,0 +1,181 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From BoreWeibo:
+* ic_launcher-web.png
+* proguard-project.txt
+From WeiboSDK:
+* proguard-project.txt
+From pulltorefresh:
+* LICENSE
+* pom.xml
+From uil:
+* java\
+* java\com\
+* java\com\nostra13\
+* java\com\nostra13\universalimageloader\
+* java\com\nostra13\universalimageloader\cache\
+* java\com\nostra13\universalimageloader\cache\disc\
+* java\com\nostra13\universalimageloader\cache\disc\DiskCache.java
+* java\com\nostra13\universalimageloader\cache\disc\impl\
+* java\com\nostra13\universalimageloader\cache\disc\impl\BaseDiskCache.java
+* java\com\nostra13\universalimageloader\cache\disc\impl\LimitedAgeDiskCache.java
+* java\com\nostra13\universalimageloader\cache\disc\impl\UnlimitedDiskCache.java
+* java\com\nostra13\universalimageloader\cache\disc\impl\ext\
+* java\com\nostra13\universalimageloader\cache\disc\impl\ext\DiskLruCache.java
+* java\com\nostra13\universalimageloader\cache\disc\impl\ext\LruDiskCache.java
+* java\com\nostra13\universalimageloader\cache\disc\impl\ext\StrictLineReader.java
+* java\com\nostra13\universalimageloader\cache\disc\impl\ext\Util.java
+* java\com\nostra13\universalimageloader\cache\disc\naming\
+* java\com\nostra13\universalimageloader\cache\disc\naming\FileNameGenerator.java
+* java\com\nostra13\universalimageloader\cache\disc\naming\HashCodeFileNameGenerator.java
+* java\com\nostra13\universalimageloader\cache\disc\naming\Md5FileNameGenerator.java
+* java\com\nostra13\universalimageloader\cache\memory\
+* java\com\nostra13\universalimageloader\cache\memory\BaseMemoryCache.java
+* java\com\nostra13\universalimageloader\cache\memory\LimitedMemoryCache.java
+* java\com\nostra13\universalimageloader\cache\memory\MemoryCache.java
+* java\com\nostra13\universalimageloader\cache\memory\impl\
+* java\com\nostra13\universalimageloader\cache\memory\impl\FIFOLimitedMemoryCache.java
+* java\com\nostra13\universalimageloader\cache\memory\impl\FuzzyKeyMemoryCache.java
+* java\com\nostra13\universalimageloader\cache\memory\impl\LRULimitedMemoryCache.java
+* java\com\nostra13\universalimageloader\cache\memory\impl\LargestLimitedMemoryCache.java
+* java\com\nostra13\universalimageloader\cache\memory\impl\LimitedAgeMemoryCache.java
+* java\com\nostra13\universalimageloader\cache\memory\impl\LruMemoryCache.java
+* java\com\nostra13\universalimageloader\cache\memory\impl\UsingFreqLimitedMemoryCache.java
+* java\com\nostra13\universalimageloader\cache\memory\impl\WeakMemoryCache.java
+* java\com\nostra13\universalimageloader\core\
+* java\com\nostra13\universalimageloader\core\DefaultConfigurationFactory.java
+* java\com\nostra13\universalimageloader\core\DisplayBitmapTask.java
+* java\com\nostra13\universalimageloader\core\DisplayImageOptions.java
+* java\com\nostra13\universalimageloader\core\ImageLoader.java
+* java\com\nostra13\universalimageloader\core\ImageLoaderConfiguration.java
+* java\com\nostra13\universalimageloader\core\ImageLoaderEngine.java
+* java\com\nostra13\universalimageloader\core\ImageLoadingInfo.java
+* java\com\nostra13\universalimageloader\core\LoadAndDisplayImageTask.java
+* java\com\nostra13\universalimageloader\core\ProcessAndDisplayImageTask.java
+* java\com\nostra13\universalimageloader\core\assist\
+* java\com\nostra13\universalimageloader\core\assist\ContentLengthInputStream.java
+* java\com\nostra13\universalimageloader\core\assist\FailReason.java
+* java\com\nostra13\universalimageloader\core\assist\FlushedInputStream.java
+* java\com\nostra13\universalimageloader\core\assist\ImageScaleType.java
+* java\com\nostra13\universalimageloader\core\assist\ImageSize.java
+* java\com\nostra13\universalimageloader\core\assist\LoadedFrom.java
+* java\com\nostra13\universalimageloader\core\assist\QueueProcessingType.java
+* java\com\nostra13\universalimageloader\core\assist\ViewScaleType.java
+* java\com\nostra13\universalimageloader\core\assist\deque\
+* java\com\nostra13\universalimageloader\core\assist\deque\BlockingDeque.java
+* java\com\nostra13\universalimageloader\core\assist\deque\Deque.java
+* java\com\nostra13\universalimageloader\core\assist\deque\LIFOLinkedBlockingDeque.java
+* java\com\nostra13\universalimageloader\core\assist\deque\LinkedBlockingDeque.java
+* java\com\nostra13\universalimageloader\core\decode\
+* java\com\nostra13\universalimageloader\core\decode\BaseImageDecoder.java
+* java\com\nostra13\universalimageloader\core\decode\ImageDecoder.java
+* java\com\nostra13\universalimageloader\core\decode\ImageDecodingInfo.java
+* java\com\nostra13\universalimageloader\core\display\
+* java\com\nostra13\universalimageloader\core\display\BitmapDisplayer.java
+* java\com\nostra13\universalimageloader\core\display\CircleBitmapDisplayer.java
+* java\com\nostra13\universalimageloader\core\display\FadeInBitmapDisplayer.java
+* java\com\nostra13\universalimageloader\core\display\RoundedBitmapDisplayer.java
+* java\com\nostra13\universalimageloader\core\display\RoundedVignetteBitmapDisplayer.java
+* java\com\nostra13\universalimageloader\core\display\SimpleBitmapDisplayer.java
+* java\com\nostra13\universalimageloader\core\download\
+* java\com\nostra13\universalimageloader\core\download\BaseImageDownloader.java
+* java\com\nostra13\universalimageloader\core\download\ImageDownloader.java
+* java\com\nostra13\universalimageloader\core\imageaware\
+* java\com\nostra13\universalimageloader\core\imageaware\ImageAware.java
+* java\com\nostra13\universalimageloader\core\imageaware\ImageViewAware.java
+* java\com\nostra13\universalimageloader\core\imageaware\NonViewAware.java
+* java\com\nostra13\universalimageloader\core\imageaware\ViewAware.java
+* java\com\nostra13\universalimageloader\core\listener\
+* java\com\nostra13\universalimageloader\core\listener\ImageLoadingListener.java
+* java\com\nostra13\universalimageloader\core\listener\ImageLoadingProgressListener.java
+* java\com\nostra13\universalimageloader\core\listener\PauseOnScrollListener.java
+* java\com\nostra13\universalimageloader\core\listener\SimpleImageLoadingListener.java
+* java\com\nostra13\universalimageloader\core\process\
+* java\com\nostra13\universalimageloader\core\process\BitmapProcessor.java
+* java\com\nostra13\universalimageloader\utils\
+* java\com\nostra13\universalimageloader\utils\DiskCacheUtils.java
+* java\com\nostra13\universalimageloader\utils\ImageSizeUtils.java
+* java\com\nostra13\universalimageloader\utils\IoUtils.java
+* java\com\nostra13\universalimageloader\utils\L.java
+* java\com\nostra13\universalimageloader\utils\MemoryCacheUtils.java
+* java\com\nostra13\universalimageloader\utils\StorageUtils.java
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In WeiboSDK:
+* AndroidManifest.xml => weiboSDK\src\main\AndroidManifest.xml
+* libs\weibosdkcore.jar => weiboSDK\libs\weibosdkcore.jar
+* lint.xml => weiboSDK\lint.xml
+* res\ => weiboSDK\src\main\res\
+* src\ => weiboSDK\src\main\java\
+In pulltorefresh:
+* AndroidManifest.xml => pulltorefresh\src\main\AndroidManifest.xml
+* res\ => pulltorefresh\src\main\res\
+* src\ => pulltorefresh\src\main\java\
+In uil:
+* AndroidManifest.xml => uil\src\main\AndroidManifest.xml
+* D:\Documents\GitHub\BoreWeibo\WeiboSDK\src\ => uil\src\main\java\
+In BoreWeibo:
+* AndroidManifest.xml => boreWeibo\src\main\AndroidManifest.xml
+* libs\universal-image-loader-1.9.4-with-sources.jar => boreWeibo\libs\universal-image-loader-1.9.4-with-sources.jar
+* res\ => boreWeibo\src\main\res\
+* src\ => boreWeibo\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/v_divider"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_white2gray_sel"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+
+        <ImageView
+            android:id="@+id/iv_left"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/push_icon_app_small_1" />
+
+        <TextView
+            android:id="@+id/tv_subhead"
+            style="@style/TextViewSubhead"
+            android:layout_marginLeft="16dp"
+            android:text="微博等级" />
+
+        <TextView
+            android:id="@+id/tv_caption"
+            style="@style/TextViewCaption"
+            android:layout_width="0dp"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:text="Lv13" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/rightarrow" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider_gray" />
+
+</LinearLayout>

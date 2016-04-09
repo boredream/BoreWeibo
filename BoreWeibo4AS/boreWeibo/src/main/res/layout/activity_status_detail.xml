@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_titlebar" />
+
+    <RelativeLayout
+        android:id="@+id/rl_body"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <com.boredream.boreweibo.widget.Pull2RefreshListView
+            android:id="@+id/plv_status_detail"
+            style="@style/ListViewLineDivider" >
+        </com.boredream.boreweibo.widget.Pull2RefreshListView>
+
+        <include
+            android:id="@+id/status_detail_tab"
+            layout="@layout/status_detail_tab"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/status_detail_controlbar"
+        layout="@layout/include_status_controlbar" />
+
+</LinearLayout>

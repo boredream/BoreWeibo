@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BoreWeibo4AS.iml" filepath="$PROJECT_DIR$/BoreWeibo4AS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boreWeibo/boreWeibo.iml" filepath="$PROJECT_DIR$/boreWeibo/boreWeibo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulltorefresh/pulltorefresh.iml" filepath="$PROJECT_DIR$/pulltorefresh/pulltorefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weiboSDK/weiboSDK.iml" filepath="$PROJECT_DIR$/weiboSDK/weiboSDK.iml" />
+    </modules>
+  </component>
+</project>
